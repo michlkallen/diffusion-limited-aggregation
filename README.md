@@ -1,4 +1,4 @@
-# Diffusion Limited Aggregation
+# Diffusion-Limited Aggregation
 
 ![10k particle DLA](https://github.com/michlkallen/diffusion_limited_aggregation/blob/master/DLA-10kParticles.png)
 
