@@ -1,4 +1,7 @@
-# diffusion-limited-aggregation
+# Diffusion Limited Aggregation
+
+![10k particle DLA](https://github.com/michlkallen/diffusion_limited_aggregation/blob/master/DLA-10kParticles.png)
+
 This set of files generates diffusion-limited aggregates in 2D and 3D. The files are written in Python and use numpy, scipy, and matplotlib to generate the centers and images.
 
 The main aggregate scripts are for off-lattice DLA simulations to avoid the artifacts present in a gridded simulation. The scripts also use patches instead of pixels, so the images can be saved in a vector format if desired for better scalability. The algorithm itself borrows heavily from the work by Braga and Ribeiro to correct the particle location after contact.
