@@ -19,15 +19,15 @@ Generates a 2D diffusion-limited aggregate. Typical use would be:
 ### Functions in `dla.py`
 `aggregate2D(n, r=1.0, len=1.0, output_text=True, plot=True)`: base function - use to generate a 2D aggregate with options for plotting and exporting the particle centers as a text file (used in other functions)
 
-![500 particle DLA](https://github.com/michlkallen/diffusion_limited_aggregation/blob/master/dla_500_particles.png)
+![500 particle DLA](https://github.com/michlkallen/diffusion_limited_aggregation/blob/master/images/dla_500_particles.png)
 
 `bounded_aggregate(path='centers.txt', r=1.0)`: plots the aggregate and its bounding circle (uses text file generated from `aggregate2D`)
 
-![Bounded 500 particle DLA](https://github.com/michlkallen/diffusion_limited_aggregation/blob/master/dla_500_bounded.png)
+![Bounded 500 particle DLA](https://github.com/michlkallen/diffusion_limited_aggregation/blob/master/images/dla_500_bounded.png)
 
 `aggregate_conn(path='centers.txt', r=1.0)`: plots connectivity diagram for a given aggregate (uses text file generated from `aggregate2D`)
 
-![500 particle connectivity](https://github.com/michlkallen/diffusion_limited_aggregation/blob/master/dla_500_connect.png)
+![500 particle connectivity](https://github.com/michlkallen/diffusion_limited_aggregation/blob/master/images/dla_500_connect.png)
 
 ## `dla3d.py`
 Generates a 3D diffusion-limited aggregate. Similar procedure to above.
